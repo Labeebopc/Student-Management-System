@@ -1,0 +1,28 @@
+<section>
+  <div class="container mt-3">
+    <div class="button ml-auto">
+      <a href="/add-students" class="btn btn-success mb-3">Add Student</a>
+    </div>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th scope="col">No</th>
+          <th scope="col">Name</th>
+          <th scope="col">Mobile</th>
+          <th scope="col">Address</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each students}}
+        <tr>
+          <th scope="row">{{this.no}}</th>
+          <td>{{this.name}}</td>
+          <td>{{this.mobile}}</td>
+          <td>{{this.address}}</td>
+        </tr>
+        {{/each}}
+
+      </tbody>
+    </table>
+  </div>
+</section>

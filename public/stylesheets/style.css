@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#navbar {
+  background-color: rgb(63, 90, 180);
+}
+.nav-item a,
+#signup {
+  color: #fff;
+}
+.nav-item a:hover {
+  color: #fff;
+}
+.form {
+  width: 400px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 150px;
+  border: solid 1px;
+  padding: 15px;
+  border-radius: 7px;
+  background-color: antiquewhite;
+}
+.form-group {
+  margin-top: 10px;
+}
+.form-group label {
+  font-size: 16px;
+  font-weight: 700;
+}
+.form .btn {
+  margin-top: 10px;
+  margin-left: 40%;
+}
